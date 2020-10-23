@@ -99,7 +99,7 @@ sap.ui.define([
                     if(toDay.getTime() < endDay.getTime()){
                         resultData[i].STATUS = "진행중"
                     }else{
-                        resultData[i].STATUS = "완결"
+                        resultData[i].STATUS = "종료"
                     }
                 }
 			});   
