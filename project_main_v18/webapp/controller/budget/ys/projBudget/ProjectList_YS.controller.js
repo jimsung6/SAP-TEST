@@ -95,7 +95,8 @@ sap.ui.define([
                 var resultData = oResultData.TAB1
                 var toDay = new Date();
                 for( var i=0 ; i < resultData.length ; i++ ){
-                    var endDay = new Date(resultData[i].EDATE)
+					var endDay = new Date(resultData[i].EDATE)
+					console.log(endDay)
                     if(toDay.getTime() < endDay.getTime()){
                         resultData[i].STATUS = "진행중"
                     }else{
