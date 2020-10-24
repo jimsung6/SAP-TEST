@@ -15,6 +15,7 @@ sap.ui.define([
 	return Controller.extend("ExpenseManagement.controller.expenseManagement.List26", {
 	
 		// Test
+		// TEST
 		onInit: function () {
 			//달력 초기 세팅
 			var oDRS = this.byId("DRS");
